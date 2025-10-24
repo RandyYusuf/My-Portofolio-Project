@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #252525;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: aqua;
+}
+
+#page {
+  max-width: 900px;
+  margin: 15px auto;
+  padding: 20px 40px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 20px 0;
+}
+
+#quote {
+  font-weight: 600;
+}
+
+.img-project {
+  width: 400px;
+}
+
+#skills {
+  list-style-type: square;
+  padding-left: 20px;
+}
